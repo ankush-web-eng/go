@@ -40,8 +40,8 @@ func main() {
 		w.Write([]byte("Name is: " + name + " Email is: " + email))
 	})
 
-	err := http.ListenAndServe(":8080", nil)
 	println("Server is running on port 8080")
+	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
 		log.Fatalf("Server failed to start: %v", err)
 	}
