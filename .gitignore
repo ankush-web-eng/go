@@ -1,2 +1,4 @@
 main.go.exe
 .env
+mongo.exe
+main.exe
