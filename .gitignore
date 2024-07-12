@@ -2,3 +2,4 @@ main.go.exe
 .env
 mongo.exe
 main.exe
+go-postgres.exe
