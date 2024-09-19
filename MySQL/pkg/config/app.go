@@ -31,7 +31,7 @@ func Connect() {
 		log.Fatalf("DATABASE_URL is not set in the environment")
 	}
 
-	d, err := gorm.Open("mysql", dsn)
+	d, err := gorm.Open("postgres", dsn)
 	if err != nil {
 		panic(err)
 	}
